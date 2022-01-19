@@ -194,7 +194,7 @@ function makeFavoritesList() {
         favoritesCenter.innerHTML += `
         <div class="fave-with-heart">
             <h3 class="fave-message">${favoriteMessages[i].text}</h3>
-            <i class="fas fa-heart" id=${favoriteMessages[i].id}></i>
+            <img class="fas fa-heart" id=${favoriteMessages[i].id} src="assets/heart-full.svg"/>
         </div>`
     }
 };
